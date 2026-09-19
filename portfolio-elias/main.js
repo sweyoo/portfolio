@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Eliáš Novák — Web Developer Portfolio
+   SW Code — Web Developer Portfolio
    Shared behaviour: loading screen, intro reveal, nav, scroll reveal
    ========================================================================== */
 
