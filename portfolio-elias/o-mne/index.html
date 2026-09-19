@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O mně — Eliáš Novák</title>
+<meta name="description" content="Poznejte Eliáše Nováka, web developera z České republiky — zkušenosti, přístup k práci a hodnoty.">
+<style>html,body{background:#0A0A0F;}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<noscript><style>#loading-screen{display:none!important;}body.is-loading{overflow:visible!important;height:auto!important;}.intro-el{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body class="is-loading">
+
+<div id="loading-screen" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-logo">E<span>N</span></div>
+    <div class="loader-percent">0%</div>
+    <div class="loader-label">Načítání...</div>
+    <div class="loader-bar-track">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+</div>
+<script>
+  window.__loaderFallbackTimer = window.setTimeout(function () {
+    document.documentElement.classList.add("loader-timeout-fallback");
+    var loader = document.getElementById("loading-screen");
+    if (loader) loader.classList.add("hidden");
+    document.body.classList.remove("is-loading");
+    document.querySelectorAll(".intro-el").forEach(function (el) {
+      el.classList.add("is-in");
+    });
+  }, 5000);
+</script>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">Eliáš<span class="dot">.</span>Novák</a>
+    <nav class="nav-links" id="nav-links" aria-label="Hlavní navigace">
+      <a href="/">Domů</a>
+      <a href="/o-mne/">O mně</a>
+      <a href="/dovednosti/">Dovednosti</a>
+      <a href="/projekty/">Projekty</a>
+      <a href="/reference/">Reference</a>
+      <a href="/kontakt/">Kontakt</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="/kontakt/" class="btn btn-primary btn-sm">Domluvit spolupráci</a>
+      <button class="nav-toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="eyebrow intro-el" style="--intro-delay:0ms">O mně</span>
+      <h1 class="page-title intro-el" style="--intro-delay:100ms">Ahoj, jsem Eliáš — vývojář, který má rád čistý kód a jasné výsledky.</h1>
+      <p class="page-subtitle intro-el" style="--intro-delay:200ms">Web developer se sídlem v České republice. Pomáhám firmám i jednotlivcům dostat jejich nápad online — rychle, spolehlivě a s důrazem na detail.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container about-layout">
+      <div class="about-photo reveal">
+        <span class="about-photo-initials">EN</span>
+      </div>
+
+      <div class="about-text reveal">
+        <p>Programování mě baví od chvíle, kdy jsem si poprvé upravil vlastní HTML stránku a zjistil, že kód dokáže na první pohled proměnit prázdnou obrazovku v něco živého. Od té doby jsem se posunul od jednoduchých statických stránek k plnohodnotným webovým aplikacím.</p>
+        <p>Specializuji se na frontend i backend vývoj — od návrhu uživatelského rozhraní přes psaní čistého, udržovatelného kódu až po nasazení a dlouhodobou podporu. Každý projekt beru jako partnerství: naslouchám cílům klienta a hledám nejjednodušší cestu, jak jich dosáhnout technicky spolehlivě.</p>
+        <p>Mimo vývoj sleduji nové technologie, testuji nástroje a rád se dělím o to, co se naučím. Věřím, že dobrý web nemusí být složitý — musí především fungovat a pomáhat lidem, pro které vznikl.</p>
+
+        <h2>Moje cesta</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2020 — 2021</div>
+            <div class="timeline-content">
+              <h3>První kroky ve vývoji</h3>
+              <p>Samostudium HTML, CSS a JavaScriptu, první freelance zakázky pro místní firmy a spolky.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3>Specializace na frontend</h3>
+              <p>Prohloubení znalostí Reactu, práce na responzivních rozhraních a prvních e-shopech.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2023 — 2024</div>
+            <div class="timeline-content">
+              <h3>Fullstack projekty</h3>
+              <p>Rozšíření o Node.js a databázové řešení, vývoj webových aplikací na míru pro klienty z různých oborů.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2025 — dnes</div>
+            <div class="timeline-content">
+              <h3>Nezávislý web developer</h3>
+              <p>Práce na vlastních zakázkách, důraz na výkon, přístupnost a moderní design webových projektů.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>Jak pracuji</h2>
+        <div class="value-grid reveal-stagger">
+          <div class="card value-item reveal">
+            <h3>Transparentnost</h3>
+            <p>Jasná komunikace o postupu, termínech i ceně bez skrytých překvapení.</p>
+          </div>
+          <div class="card value-item reveal">
+            <h3>Kvalitní kód</h3>
+            <p>Čistý, dobře strukturovaný a zdokumentovaný kód, se kterým se dá dále pracovat.</p>
+          </div>
+          <div class="card value-item reveal">
+            <h3>Zaměření na výsledek</h3>
+            <p>Web musí především plnit svůj obchodní účel, ne jen dobře vypadat.</p>
+          </div>
+          <div class="card value-item reveal">
+            <h3>Dlouhodobá podpora</h3>
+            <p>I po odevzdání projektu jsem k dispozici pro úpravy, rozšíření a údržbu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt-cta">
+    <div class="container">
+      <div class="contact-cta reveal">
+        <h2>Máte v hlavě projekt? Proberme ho.</h2>
+        <p>Ozvěte se mi e-mailem nebo telefonicky — rád si poslechnu, co plánujete.</p>
+        <div class="contact-details">
+          <a href="mailto:elias.nov@icloud.com" class="contact-detail-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6l-10 7L2 6"></path><path d="M2 6h20v12H2z"></path></svg>
+            elias.nov@icloud.com
+          </a>
+          <a href="tel:+420731371842" class="contact-detail-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            +420 731 371 842
+          </a>
+        </div>
+        <div class="cta-buttons">
+          <a href="/kontakt/" class="btn btn-primary">Napsat zprávu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">Eliáš<span class="dot">.</span>Novák</div>
+    <nav class="footer-links" aria-label="Odkazy v patičce">
+      <a href="/">Domů</a>
+      <a href="/o-mne/">O mně</a>
+      <a href="/dovednosti/">Dovednosti</a>
+      <a href="/projekty/">Projekty</a>
+      <a href="/reference/">Reference</a>
+      <a href="/kontakt/">Kontakt</a>
+    </nav>
+    <p class="footer-copy">&copy; <span id="year"></span> Eliáš Novák. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="/main.js"></script>
+</body>
+</html>

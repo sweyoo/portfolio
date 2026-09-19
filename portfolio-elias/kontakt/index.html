@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Eliáš Novák</title>
+<meta name="description" content="Kontaktujte Eliáše Nováka — web developera z České republiky. E-mail, telefon i kontaktní formulář.">
+<style>html,body{background:#0A0A0F;}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<noscript><style>#loading-screen{display:none!important;}body.is-loading{overflow:visible!important;height:auto!important;}.intro-el{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body class="is-loading">
+
+<div id="loading-screen" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-logo">E<span>N</span></div>
+    <div class="loader-percent">0%</div>
+    <div class="loader-label">Načítání...</div>
+    <div class="loader-bar-track">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+</div>
+<script>
+  window.__loaderFallbackTimer = window.setTimeout(function () {
+    document.documentElement.classList.add("loader-timeout-fallback");
+    var loader = document.getElementById("loading-screen");
+    if (loader) loader.classList.add("hidden");
+    document.body.classList.remove("is-loading");
+    document.querySelectorAll(".intro-el").forEach(function (el) {
+      el.classList.add("is-in");
+    });
+  }, 5000);
+</script>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">Eliáš<span class="dot">.</span>Novák</a>
+    <nav class="nav-links" id="nav-links" aria-label="Hlavní navigace">
+      <a href="/">Domů</a>
+      <a href="/o-mne/">O mně</a>
+      <a href="/dovednosti/">Dovednosti</a>
+      <a href="/projekty/">Projekty</a>
+      <a href="/reference/">Reference</a>
+      <a href="/kontakt/">Kontakt</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="/kontakt/" class="btn btn-primary btn-sm">Domluvit spolupráci</a>
+      <button class="nav-toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="eyebrow intro-el" style="--intro-delay:0ms">Kontakt</span>
+      <h1 class="page-title intro-el" style="--intro-delay:100ms">Pojďme probrat váš projekt.</h1>
+      <p class="page-subtitle intro-el" style="--intro-delay:200ms">Vyplňte formulář nebo mě kontaktujte přímo — obvykle odpovídám do 24 hodin.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container contact-layout">
+
+      <div class="card contact-info-card reveal">
+        <h2>Kontaktní údaje</h2>
+        <p>Neváhejte se ozvat kterýmkoliv z níže uvedených způsobů.</p>
+
+        <div class="info-row">
+          <div class="icon-badge info-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6l-10 7L2 6"></path><path d="M2 6h20v12H2z"></path></svg>
+          </div>
+          <div>
+            <div class="info-row-label">E-mail</div>
+            <a href="mailto:elias.nov@icloud.com" class="info-row-value">elias.nov@icloud.com</a>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="icon-badge info-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </div>
+          <div>
+            <div class="info-row-label">Telefon</div>
+            <a href="tel:+420731371842" class="info-row-value">+420 731 371 842</a>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="icon-badge info-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div>
+            <div class="info-row-label">Lokalita</div>
+            <div class="info-row-value">Česká republika</div>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <div class="icon-badge info-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div>
+            <div class="info-row-label">Reakční doba</div>
+            <div class="info-row-value">Obvykle do 24 hodin</div>
+          </div>
+        </div>
+
+        <div class="status-pill" style="margin-top:28px;">
+          <span class="pulse-dot"></span>
+          Dostupný pro nové projekty
+        </div>
+      </div>
+
+      <form class="card contact-form reveal" id="contact-form">
+        <h2>Napište mi</h2>
+        <div class="form-group">
+          <label for="name">Jméno a příjmení</label>
+          <input type="text" id="name" name="name" placeholder="Jan Novák" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="jan.novak@email.cz" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Předmět</label>
+          <input type="text" id="subject" name="subject" placeholder="Poptávka nového webu" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Zpráva</label>
+          <textarea id="message" name="message" placeholder="Popište mi váš projekt, rozpočet a časový rámec..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Odeslat zprávu</button>
+        <p class="form-note">Odesláním formuláře souhlasíte se zpracováním vašich údajů za účelem odpovědi na dotaz.</p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">Eliáš<span class="dot">.</span>Novák</div>
+    <nav class="footer-links" aria-label="Odkazy v patičce">
+      <a href="/">Domů</a>
+      <a href="/o-mne/">O mně</a>
+      <a href="/dovednosti/">Dovednosti</a>
+      <a href="/projekty/">Projekty</a>
+      <a href="/reference/">Reference</a>
+      <a href="/kontakt/">Kontakt</a>
+    </nav>
+    <p class="footer-copy">&copy; <span id="year"></span> Eliáš Novák. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="/main.js"></script>
+</body>
+</html>
