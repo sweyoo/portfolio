@@ -260,13 +260,13 @@ body.is-loading {
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: -0.02em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
 }
 
 .logo .dot {
   color: var(--accent-light);
+  margin: 0 1px;
 }
 
 .nav-links {
